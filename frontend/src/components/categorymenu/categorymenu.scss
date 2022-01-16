@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+.category-menu-nav__list{
+  display: flex;
+  justify-content: space-around ;
+  list-style: none;
+}
+
+.category-menu-nav__link{
+  text-decoration: none;
+  font-family: $heading-font;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: black
+}
+

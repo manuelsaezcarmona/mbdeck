@@ -1,0 +1,14 @@
+@import '../../App.scss';
+
+
+.favoritelist-item_image{
+  	flex-shrink: 0;
+		width: 96px;
+		height: 96px;
+
+}
+
+.favoritelist-item__content{
+  padding: 4px 15px;
+  color:black;
+}

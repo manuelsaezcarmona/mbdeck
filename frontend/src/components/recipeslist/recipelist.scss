@@ -1,0 +1,12 @@
+@import '../../App.scss';
+
+.recipes-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.recipelist__item {
+  list-style: none;
+}

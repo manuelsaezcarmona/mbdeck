@@ -1,0 +1,15 @@
+@import '../../App.scss';
+
+.footer-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: $primary-yellow;
+  color: $secundary-red;
+
+}
+.footer-page__link{
+  text-decoration: none;
+  color:$secundary-red;}
+

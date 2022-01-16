@@ -1,0 +1,25 @@
+@import '../../App.scss';
+
+.mainmenu-nav__list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.mainmenu-nav__link{
+  text-decoration: none;
+  font-family: $principal-font;
+  font-size: 1.5rem;
+  color: black
+}
+
+.mainmanu-nav__span{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.mainmanu-nav__span--before {
+  font-family: $logofont-firstpart;
+}
+.mainmanu-nav__span--after{
+   font-family: $logofont-secondpart;
+}

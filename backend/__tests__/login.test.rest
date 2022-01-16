@@ -1,0 +1,14 @@
+###
+POST http://localhost:3030/user/
+content-type: application/json
+
+{
+    "username": "Tomas guancho",
+    "pass": "paraaaaa",
+    "email": "tomas@email.com",
+    "recipes": [
+      "61a5f3aac13b6a68fbfa7f0e"
+    ],
+    "cart": []
+
+}

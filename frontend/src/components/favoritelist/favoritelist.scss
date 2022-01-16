@@ -1,0 +1,26 @@
+@import '../../App.scss';
+
+
+.favorites{
+  width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: $principal-font;
+	background: #EFEBE9
+}
+
+.favorites-list{
+  margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+.favorites-list__item{
+  padding: 20px 10px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+	display: flex;
+
+background: #ffffff;
+}

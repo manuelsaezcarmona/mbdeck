@@ -1,0 +1,46 @@
+// Define Global Styles
+$primary-yellow: #F4CC70;
+$secundary-red: #7F152E;
+$secundary-red-semitransp: rgba(127,21,46,0.85);
+$grey-search: rgba(0,0,0,0.87);
+$grey-icon: #666;
+$yellow-semitransp: rgba(244,204,112,0.6);
+
+$principal-font: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+$heading-font: 'Butler', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+
+$heading-decorated-font: 'Butler Stencil', Verdana, Geneva, Tahoma, sans-serif;
+$logofont-firstpart: 'DreamCatcher', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$logofont-secondpart: 'Bebas Neue', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $principal-font;
+  min-height: 100vh;
+
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.principal{
+  font-family:$heading-decorated-font;
+  color:$secundary-red;
+}
+.icon{
+  font-size: 10px;
+}
+

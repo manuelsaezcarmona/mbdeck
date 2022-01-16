@@ -1,0 +1,6 @@
+###
+GET http://localhost:3030/recipes/
+
+###
+GET http://localhost:3030/recipes/61a5f3aac13b6a68fbfa7f0c
+

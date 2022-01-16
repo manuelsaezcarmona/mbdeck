@@ -1,0 +1,26 @@
+[{
+    "username": "Paquita aldente",
+    "pass": "quericotodo",
+    "email": "paqui@email.com",
+    "recipes": [],
+    "cart": []
+
+},
+{
+    "username": "Jose alpunto",
+    "pass": "carne",
+    "email": "jose@email.com",
+    "recipes": [],
+    "cart": []
+
+},
+{
+    "username": "Carlos sweet",
+    "pass": "caramelo",
+    "email": "carlos@email.com",
+    "recipes": [],
+    "cart": []
+
+}
+
+]

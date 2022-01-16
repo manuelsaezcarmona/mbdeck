@@ -1,0 +1,54 @@
+@import '../../App.scss';
+
+.register-form, input, p {
+      padding: 10px;
+      margin: 0;
+      outline: none;
+      font-family: $principal-font;
+      font-size: 16px;
+      color: $grey-icon;
+}
+   .register-container {
+
+      max-width: 340px;
+      min-height: 360px;
+      padding: 10px 0;
+      margin: auto;
+      border-radius: 5px;
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+      background: $yellow-semitransp;
+      }
+  .register-form__icon {
+      margin: 0;
+      border-radius: 5px 0 0 5px;
+      font-size: 34px;
+      }
+   input[type=text], input[type=email], input[type=password] {
+     display: inline-block;
+      width: calc(100% - 57px);
+      height: 36px;
+      margin: 13px 0 0 0;
+      padding-left: 10px;
+      border-radius: 0 5px 5px 0;
+      border: solid 1px #cbc9c9;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+      background: #fff;
+      }
+  input[type=password] {
+      margin-bottom: 15px;
+      }
+   button {
+      width: 100%;
+      padding: 10px 0;
+      margin: 10px auto;
+      border-radius: 5px;
+      border: none;
+      background: $secundary-red;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      }
+  button:hover {
+      background: $secundary-red-semitransp;
+      }

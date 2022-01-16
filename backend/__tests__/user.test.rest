@@ -1,0 +1,166 @@
+###
+GET http://localhost:3030/user/
+
+###
+GET http://localhost:3030/user/61a62b170d9b6d76ff802cf1
+
+
+### Añadir recetas con un registro.
+PATCH http://localhost:3030/user/addrecipe/61a62b170d9b6d76ff802cf1/61a5f3aac13b6a68fbfa7f12
+
+
+### Eliminar recetas con un registro.
+PATCH http://localhost:3030/user/delrecipe/61a62b170d9b6d76ff802cf1/61a5f3aac13b6a68fbfa7f12
+
+###
+POST http://localhost:3030/user/
+content-type: application/json
+
+{
+    "username": "Gonzalo alabrasa",
+    "pass": "megustato",
+    "email": "gonzo@email.com",
+    "recipes": [
+      "61a5f3aac13b6a68fbfa7f0e"
+    ],
+    "cart": []
+
+}
+
+
+###
+
+PATCH   http://localhost:3030/user/61a5ea0c3ab7d88432e704c2
+content-type: application/json
+
+{
+  "username": "Raul",
+  "email": "raul@sample.com",
+  "pass": "Navidad"
+}
+
+
+
+###
+DELETE http://localhost:3030/user/61a8d5cad54f23f0f69277b0
+
+###
+
+###
+
+PATCH   http://localhost:3030/user/61a5ea0c3ab7d88432e704c2
+content-type: application/json
+
+{
+  "username": "Raul",
+  "email": "raul@sample.com",
+  "pass": "sirope",
+  "recipes": [
+
+      "61a5f3aac13b6a68fbfa7f0c"
+
+    ],
+}
+###
+POST    http://localhost:3030/user/
+content-type: application/json
+
+{
+  "username": "Manolito Verbenas",
+  "email": "manolito@sample.com",
+  "pass": "sirope",
+  "recipes": [
+      "61a5f3aac13b6a68fbfa7f0f"
+    ]
+}
+
+###
+POST    http://localhost:3030/user/
+content-type: application/json
+
+{
+  "username": "Benito Camelas",
+  "email": "benitoo@sample.com",
+  "pass": "pepino",
+  "recipes": [
+      "61a5f3aac13b6a68fbfa7f0f",
+      "61a5f3aac13b6a68fbfa7f11"
+    ]
+}
+
+
+###
+GET http://localhost:3030/user/
+
+
+###
+GET http://localhost:3030/user/61a5ea0c3ab7d88432e704c2
+
+
+
+
+
+### Añadir recetas a favoritos solo GET de prueba para ver los cambios
+GET http://localhost:3030/user/61a62b170d9b6d76ff802cf1/61a5f3aac13b6a68fbfa7f10
+
+### Añadir recetas con un registro.
+PATCH http://localhost:3030/user/61a5ea0c3ab7d88432e704c2/61a5f3aac13b6a68fbfa7f0f
+
+### Añadir recetas con otro registro.
+PATCH http://localhost:3030/user/addrecipe/61a5ea0c3ab7d88432e704c2/61a5f3aac13b6a68fbfa7f11
+
+### Quitar recetas con otro registro. de Prueba para ver los cambios.
+GET http://localhost:3030/user/delrecipe/61a5ea0c3ab7d88432e704c2/61a5f3aac13b6a68fbfa7f11
+
+
+### Quitar recetas con otro registro.
+PATCH http://localhost:3030/user/delrecipe/61a5ea0c3ab7d88432e704c2/61a5f3aac13b6a68fbfa7f11
+
+
+// Con middleware autentication.
+
+### Add user authenticathed
+###
+POST    http://localhost:3030/user/
+content-type: application/json
+
+{
+  "username": "rolo",
+  "email": "rolo@sample.com",
+  "pass": "carolo",
+  "recipes": [
+
+    ]
+}
+
+### Get user by id
+###
+GET http://localhost:3030/user/61aa55a195a37ebcdf7562f7
+
+
+
+## Login CUIDADO CON LAS COMAS AL FINAL!!!
+###
+POST http://localhost:3030/login
+content-type: application/json
+
+{
+  "username": "rolo",
+  "pass": "carolo"
+}
+
+// Con middleware autentication.
+
+### Add user authenticathed
+###
+POST    http://localhost:3030/user
+content-type: application/json
+
+{
+  "username": "error",
+  "email": "error@sample.com",
+  "pass": "peto",
+  "recipes": [
+
+    ]
+}

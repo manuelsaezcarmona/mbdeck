@@ -1,0 +1,48 @@
+@import '../../App.scss';
+
+.recipe-content__title{
+  color: $secundary-red;
+  text-align: center;
+  font-family: $heading-decorated-font;
+  font-size: 2em;
+
+}
+.details-recipe{
+  display: flex;
+
+}
+.detail-recipe__list{
+  list-style: none;
+}
+
+.ingredients-title{
+   color: $secundary-red;
+  text-transform: uppercase;
+  font-family: $heading-font;
+  font-size: 1.6em;
+}
+.ingredients__list{
+  list-style: none;
+}
+.preparation__title{
+   color: $secundary-red;
+  text-align: center;
+  font-family: $heading-font;
+  font-size: 2em;
+}
+.preparation-steps__list{
+  list-style: none;
+}
+.step-container{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+.step-container__image{
+  width: 350px;
+height: 232px;
+object-fit: cover;
+}
+
+
